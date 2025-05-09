@@ -19,5 +19,5 @@ jobs:
 
       - name: Run tests
         run: |
-          export PYTHONPATH=$(pwd)/ci_cd_demo
+          export PYTHONPATH=$(pwd)
           pytest tests
