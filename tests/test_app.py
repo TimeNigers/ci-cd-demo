@@ -1,3 +1,4 @@
-from app import app
+from ci_cd_demo.app import app
+
 def test_add():
 	assert app.add(2, 3) == 5
